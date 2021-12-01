@@ -1,0 +1,588 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body 
+{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ h1
+{
+    color:orange;
+    font-size: 50px;
+    text-align:center;
+}
+ p
+{
+    font-size: 20px;
+    text-align:center;
+}
+.navbar 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:black;
+    background-color: white;
+    padding:10px 100px;
+}
+.brand-title 
+{
+    font-size: 24px;
+    line-height: 40px;
+    margin-right: 100px;
+    color:black;
+}
+.navbar-links ul 
+{
+    display: flex;
+    margin:0;
+    padding:0;
+}
+.navbar-links li 
+{
+    list-style-type: none;
+}
+.navbar-links li a 
+{
+    display: block;
+    text-decoration: none;
+    color:black;
+    padding:20px 45px;
+    font-size: 20px;
+}
+.search 
+{
+    background-color: gray;
+    color:black;
+    border:0px;
+    border-radius: 15px;
+    width:170px;
+    height:40px;
+    font-size:20px;
+    cursor: pointer;
+    outline: none;
+    padding:0px 30px;
+}
+.ser 
+{
+    margin-top:15px;
+}
+.toggle-button 
+{
+    position:absolute;
+    top:.75rem;
+    right:1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width:30px;
+    height: 21px;
+}
+.toggle-button .bar 
+{
+    height:3px;
+    width:100%;
+    background-color: black;
+    border-radius:10px;
+
+}
+
+/*---------------//nav-------------------*/
+.banner 
+{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url('./img/banner.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.msg 
+{
+    position: absolute;
+    top:10%;
+    left:10%;
+    width:50%;
+}
+.msg h1 
+{
+    color:orange;
+    font-size: 50px;
+    text-align: left;
+}
+.msg p 
+{
+    color:white;
+    text-align:left;
+    font-size:20px;
+}
+.read 
+{
+    margin:20px;
+}
+.btn 
+{
+    background-color: white;
+    color:black;
+    text-align:center;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    padding:10px 12px;
+    border-radius:12px;
+}
+.btn:hover 
+{
+    background-color: transparent;
+    border:1px solid white;
+    color:white;
+}
+/*---------------//banner--------------------*/
+.info 
+{
+    margin:10px 110px;
+}
+.overlay 
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:20px;
+}
+.img1,.img2,.img3 
+{
+    padding:20px;
+    width:300px;
+ 
+}
+.overlay h1
+{
+    color:orange;
+    font-size: 50px;
+    text-align:center;
+}
+.overlay p
+{
+    font-size: 20px;
+    text-align:center;
+}
+.content 
+{
+    background-color:grey;
+    color:white;
+    font-size:20px;
+    padding:10px 10px;
+    text-align:left;
+    margin-top:-10px;
+}
+.content h4 
+{
+    text-align: center;
+}
+.content p
+{
+    font-size: 20px;
+    text-align:center;
+}
+.info-btn 
+{
+    text-align: center;
+}
+.info-btn .btn 
+{
+    background-color: grey;
+    color:white;
+    font-weight: bold;
+    border:none;
+    outline: none;
+    font-size: 20px;
+    padding:12px 18px;
+border-radius: 15px;
+}
+.info-btn .btn:hover 
+{
+    background-color: transparent;
+    color:grey;
+    border:1px solid grey;
+} 
+/*---------------//section2nd end--------------------*/
+.items-container 
+{
+    width:100%;
+    margin:0 auto;
+    height:auto;
+}
+.card, .card1 
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+ .card-content2  p
+{
+  color:white;
+  text-align:left;
+margin-top:5%;
+}
+.card-content  p
+{
+  color:white;
+  text-align:left;
+margin-top:5%;
+}
+.card-content2  h1
+{
+  color:white;
+  text-align:left;
+  margin-top:5%;
+}
+.card-content  h1
+{
+  color:white;
+  text-align:left;
+  margin-top:5%;
+}
+ .card-content2 
+{
+    width:50%;
+    padding:25px 80px;
+    height:auto;
+    margin-top:-5px;
+}
+.card-content
+{
+    width:50%;
+    padding:25px 80px;
+    height:auto;
+}
+.work1, .work2 
+{
+    width:50%;
+    height: 100%;
+}
+img 
+{
+    width:100%;
+  
+}
+.card-btn 
+{
+    text-align:left;
+    margin:20px;
+}
+.card-btn .btn 
+{
+    background-color:orange;
+    color:white;
+    font-weight: bold;
+    border:none;
+    outline: none;
+    padding:12px 18px;
+border-radius: 15px;
+font-size: 20px;
+}
+
+/*---------------//section3rd end--------------------*/
+.para1 
+{
+    margin:45px 0px;
+}
+.para 
+{
+    background-color: grey;
+    padding:100px;
+    padding:20px 100px;
+}
+.para h1 
+{
+    text-align: center;
+    font-weight: 100;
+    color:white;
+    margin-top:30px;
+}
+.para p 
+{
+    text-align: center;
+    font-weight: 100;
+    color:white;
+    margin:30px;
+}
+/*---------------//section4th end--------------------*/
+.explore
+{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url('./img/lt.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.msg1 
+{
+    position: absolute;
+    top:40%;
+    left:50%;
+ 
+}
+.msg1 h1 
+{
+    color:orange;
+    font-size: 100px;
+    text-align: left;
+}
+/*---------------//section5th end--------------------*/
+.text
+{
+    background-color:white;
+    padding:50px;
+}
+.text1 
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin:20px 20px;
+}
+.gr 
+{
+    flex-basis:33.333%;
+    box-sizing:border-box;
+    padding:20px;
+    
+}
+.gr h4 
+{
+    text-align:left;
+    font-size:23px;
+    color:orange;
+    margin:20px 0px;
+}
+.gr p 
+{
+    text-align:left;
+}
+.out 
+{
+    padding:20px 110px;
+}
+.out h3 
+{
+    margin:30px;
+    text-align:center;
+}
+/*---------------//section6th end--------------------*/
+.title 
+{
+    background-color: peru;
+    height: 400px;
+}
+.title-msg h6 
+{
+    color:white;
+   padding:60px 60px 10px 60px;
+   font-size:50px;
+   text-align:center;
+}
+.title-msg p 
+{
+    padding:20px 110px;
+    margin:20px;
+}
+.box 
+{
+    text-align:center;
+}
+.form-box 
+{
+    padding:10px;
+    border-radius:18px;
+    background-color: white;
+    font-size:18px;
+    width:550px;
+    position:relative;
+}
+.form-btn 
+{
+    padding:10px;
+    border-radius:18px;
+    background-color:rgb(46, 42, 42);
+    color:white;
+   
+    font-size:18px;
+    width:150px;
+    position:absolute;
+ 
+}
+.form-btn 
+{
+    margin-left:-150px;
+}
+/*---------------//section7th end--------------------*/
+footer 
+{
+    background-color: rgb(73, 71, 71);
+    color:white;
+    padding:10px 50px;
+}
+.links
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+ 
+}
+.lr 
+{
+    flex-basis:25%;
+    box-sizing:border-box;
+    padding:20px;
+    
+}
+.lr ul li 
+{
+    list-style: none;
+}
+.lr ul li a 
+{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+.lr h4 
+{
+    text-align:left;
+    font-size:23px;
+    color:white;
+    margin:20px 0px;
+    font-weight: 100;
+}
+.lr p 
+{
+    text-align:left;
+    font-size: 20px;
+}
+.active 
+{
+    display:block;
+}
+/*---------------//footer--------------------*/
+@media (max-width:1070px)
+{
+    .navbar 
+    {
+        flex-direction:column;
+        align-items: flex-start;
+    }
+    .toggle-button
+    {
+        display:flex;
+    }
+    .navbar-links 
+    {
+        display:none;
+        width:100%;
+        height:auto;
+    }
+   
+    .navbar-links ul li 
+    {
+        text-align: center;
+    }
+    .navbar-links ul li a 
+    {
+        padding:.5rem .1rem;
+    }
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+@media (max-width:760px)
+{
+    .card, .card1 
+    {
+        display:flex;
+        flex-direction:column;
+        flex-wrap:wrap;
+    }
+
+    .card-content , .card-content2
+    {
+        width:100%;
+    }
+    .work1, .work2 
+    {
+        width:100%;
+        height: 100%;
+    }
+    .msg1 
+    {
+        top:30%;
+        left:35%;
+     
+    }
+    .msg1 h1 
+    {
+        font-size:70px;
+    }
+    .gr 
+{
+    flex-basis:50%;
+    
+}
+.lr 
+{
+    flex-basis:50%;
+  
+}
+.out 
+{
+    padding:20px 30px;
+}
+}
+@media (max-width:600px)
+{
+    .gr 
+    {
+        flex-basis:100%;
+        
+    }
+    .title 
+    {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .form-box 
+    {
+        width:400px;
+    }
+    .form-btn 
+    {
+        width:100px;
+    }
+    .form-btn 
+    {
+        margin-left:-70px;
+    }
+      .links 
+      {
+          padding:10px 50px;
+      }
+      .banner 
+      {
+          height: 700px;
+      }
+}
+@media (max-width:500px)
+{
+    .lr
+    {
+        flex-basis: 100%;
+    }
+}
